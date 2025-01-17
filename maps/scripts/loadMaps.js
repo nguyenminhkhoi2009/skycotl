@@ -2,7 +2,7 @@
 
 function createImageElement(src, alt) {
     const img = document.createElement('img');
-    img.src = `${src}.jpg`;
+    img.src = `${src}.webp`;
     img.alt = alt;
     img.classList.add('clickable-image');
     return img;
