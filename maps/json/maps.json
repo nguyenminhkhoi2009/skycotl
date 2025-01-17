@@ -13,7 +13,7 @@
             },
             {
                 "name": "Alice's Wonderland Cafe",
-                "imgSrc": "Aviary_Village/Alice's_Wonderland_Cafe"
+                "imgSrc": "Aviary_Village/Alices_Wonderland_Cafe"
             }
         ]
     },
@@ -36,6 +36,110 @@
             {
                 "name": "Trial Of Air",
                 "imgSrc": "Isle_Of_Dawn/Trial_Of_Air"
+            }
+        ]
+    },
+    "daylighyprairie": {
+        "name": "Daylight Prairie",
+        "title": "Daylight Prairie",
+        "locations": [
+            {
+                "name": "Daylight Prairie",
+                "imgSrc": "Daylight_Prairie/Daylight_Prairie"
+            },
+            {
+                "name": "Prairie Peaks",
+                "imgSrc": "Daylight_Prairie/Prairie_Peaks"
+            }
+        ]
+    },
+    "hiddenforest": {
+        "name": "Hidden Forest",
+        "title": "Hidden Forest",
+        "locations": [
+            {
+                "name": "Hidden Forest",
+                "imgSrc": "Hidden_Forest/Hidden_Forest"
+            },
+            {
+                "name": "The Wind Paths",
+                "imgSrc": "Hidden_Forest/The_Wind_Paths"
+            }
+        ]
+    },
+    "valleyoftriumph": {
+        "name": "Valley Of Triumph",
+        "title": "Valley Of Triumph",
+        "locations": [
+            {
+                "name": "Valley Of Triumph",
+                "imgSrc": "Valley_Of_Triumph/Valley_Of_Triumph"
+            },
+            {
+                "name": "The Village Theater",
+                "imgSrc": "Valley_Of_Triumph/The_Village_Theater"
+            }
+        ]
+    },
+    "goldenwasteland": {
+        "name": "Golden Wasteland",
+        "title": "Golden Wasteland",
+        "locations": [
+            {
+                "name": "Golden Wasteland",
+                "imgSrc": "Golden_Wasteland/Golden_Wasteland"
+            },
+            {
+                "name": "Treasure Reef",
+                "imgSrc": "Golden_Wasteland/Treasure_Reef"
+            }
+        ]
+    },
+    "vaultofknowledge": {
+        "name": "Vault Of Knowledge",
+        "title": "Vault Of Knowledge",
+        "locations": [
+            {
+                "name": "Vault Of Knowledge",
+                "imgSrc": "Vault_Of_Knowledge/Vault_Of_Knowledge"
+            },
+            {
+                "name": "Repository Of Refuge",
+                "imgSrc": "Vault_Of_Knowledge/Repository_Of_Refuge"
+            },
+            {
+                "name": "Secret Area",
+                "imgSrc": "Vault_Of_Knowledge/Secret_Area"
+            },
+            {
+                "name": "2023 Day of Mischief",
+                "imgSrc": "Vault_Of_Knowledge/2023_Days_Of_Mischief"
+            },
+            {
+                "name": "Crescent Oasis",
+                "imgSrc": "Vault_Of_Knowledge/Crescent_Oasis"
+            },
+            {
+                "name": "Moominvalley",
+                "imgSrc": "Vault_Of_Knowledge/Moominvalley"
+            },
+            {
+                "name": "2024 Day of Mischief",
+                "imgSrc": "Vault_Of_Knowledge/2024_Day_Of_Mischief"
+            }
+        ]
+    },
+    "eyeofeden": {
+        "name": "Eye Of Eden",
+        "title": "Eye Of Eden",
+        "locations": [
+            {
+                "name": "Eye Of Eden - Section",
+                "imgSrc": "Eye_Of_Eden/Eye_Of_Eden_Section"
+            },
+            {
+                "name": "Eye Of Eden - PNR",
+                "imgSrc": "Eye_Of_Eden/Eye_Of_Eden_PNR"
             }
         ]
     }

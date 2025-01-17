@@ -32,7 +32,7 @@ body {
     text-decoration: underline;
 }
 
-#aviaryvillage, #isleofdawn {
+.location {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -45,7 +45,7 @@ body {
     animation: slideIn 1s ease-in-out;
 }
 
-#aviaryvillage p, #isleofdawn p {
+.location p{
     font-size: 1.125rem;
     font-weight: bold;
     text-align: center;

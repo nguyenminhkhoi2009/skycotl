@@ -19,6 +19,7 @@ function createLocationElement(location) {
 
 function createSectionElement(section, sectionId) {
     const sectionDiv = document.createElement('div');
+    sectionDiv.classList.add("location");
     sectionDiv.id = sectionId;
     sectionDiv.innerHTML = `<p>${section.title}</p>`;
     section.locations.forEach(location => {
