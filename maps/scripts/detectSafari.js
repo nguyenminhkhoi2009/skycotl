@@ -1,0 +1,9 @@
+function isSafari() {
+    var ua = navigator.userAgent.toLowerCase(); 
+    return ua.indexOf('safari') !== -1 && ua.indexOf('chrome') === -1;
+}
+
+if (isSafari()) {
+    document.body.style.backgroundImage = 'none';
+    document.body.style.backgroundColor = '#70dcfc';
+}
