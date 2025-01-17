@@ -90,8 +90,8 @@
                 "imgSrc": "Golden_Wasteland/Golden_Wasteland"
             },
             {
-                "name": "Treasure Reef",
-                "imgSrc": "Golden_Wasteland/Treasure_Reef"
+                "name": "The Treasure Reef",
+                "imgSrc": "Golden_Wasteland/The_Treasure_Reef"
             }
         ]
     },
@@ -112,8 +112,8 @@
                 "imgSrc": "Vault_Of_Knowledge/Secret_Area"
             },
             {
-                "name": "2023 Day of Mischief",
-                "imgSrc": "Vault_Of_Knowledge/2023_Days_Of_Mischief"
+                "name": "Days of Mischief 2023",
+                "imgSrc": "Vault_Of_Knowledge/Days_Of_Mischief_2023"
             },
             {
                 "name": "Crescent Oasis",
@@ -124,8 +124,8 @@
                 "imgSrc": "Vault_Of_Knowledge/Moominvalley"
             },
             {
-                "name": "2024 Day of Mischief",
-                "imgSrc": "Vault_Of_Knowledge/2024_Day_Of_Mischief"
+                "name": "Days of Mischief 2024",
+                "imgSrc": "Vault_Of_Knowledge/Days_Of_Mischief_2024"
             }
         ]
     },
