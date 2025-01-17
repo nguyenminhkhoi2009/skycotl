@@ -1,5 +1,4 @@
 function viewImageFullscreen(imgSrc) {
-    // Create the modal
     const modal = document.createElement("div");
     modal.style.display = "flex";
     modal.style.justifyContent = "center";
@@ -12,17 +11,14 @@ function viewImageFullscreen(imgSrc) {
     modal.style.backgroundColor = "rgba(0, 0, 0, 0.8)";
     modal.style.animation = "fadeIn 0.5s";
 
-    // Create the image
     const img = document.createElement("img");
     img.src = imgSrc;
     img.style.maxHeight = "100vh";
     img.style.maxWidth = "100%";
     img.style.animation = "scaleIn 0.5s";
 
-    // Append the image to the modal
     modal.appendChild(img);
 
-    // Close the modal with animation when clicked
     modal.addEventListener("click", function() {
         img.style.animation = "scaleOut 0.5s";
         modal.style.animation = "fadeOut 0.5s";
@@ -32,7 +28,6 @@ function viewImageFullscreen(imgSrc) {
         }, 500);
     });
 
-    // Append the modal to the body
     document.body.appendChild(modal);
 }
 
