@@ -1,4 +1,4 @@
-function viewImageFullscreen(imgSrc) {
+function viewImageFullscreen(imgElement) {
     const modal = document.createElement("div");
     modal.style.display = "flex";
     modal.style.justifyContent = "center";
@@ -12,8 +12,7 @@ function viewImageFullscreen(imgSrc) {
     modal.style.zIndex = "1000";
     modal.style.animation = "fadeIn 0.5s";
 
-    const img = document.createElement("img");
-    img.src = imgSrc;
+    const img = imgElement.cloneNode(true);
     img.style.maxHeight = "100vh";
     img.style.maxWidth = "100%";
     img.style.animation = "scaleIn 0.5s";
@@ -37,7 +36,7 @@ function initializeImageClickEvents() {
 
     images.forEach(function(image) {
         image.addEventListener("click", function() {
-            viewImageFullscreen(image.src);
+            viewImageFullscreen(image);
         });
     });
 }

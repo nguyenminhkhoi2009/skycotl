@@ -1,5 +1,3 @@
-// scripts/loadMaps.js
-
 function createImageElement(src, alt) {
     const img = document.createElement('img');
     img.src = `${src}.webp`;
@@ -39,7 +37,8 @@ fetch('json/maps.json')
             document.body.appendChild(sectionElement);
         });
 
-        // Reinitialize click events for images
         initializeImageClickEvents();
     })
     .catch(error => console.error('Error loading JSON:', error));
+
+    
