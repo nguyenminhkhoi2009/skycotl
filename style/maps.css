@@ -1,0 +1,93 @@
+/* CSS for Maps - Sky: The Children Of Light */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+.credit {
+    background-color: #e3f2fd;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+    color: #555;
+}
+
+.credit a {
+    color: #039be5;
+    text-decoration: none;
+}
+
+.credit a:hover {
+    text-decoration: underline;
+}
+
+#aviaryvillage, #isleofdawn {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+}
+
+.image {
+    margin: 10px;
+    text-align: center;
+}
+
+.image img {
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    width: 200px;
+    height: auto;
+    transition: transform 0.2s;
+}
+
+.image img:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.image p {
+    margin-top: 5px;
+    font-size: 16px;
+    color: #333;
+}
+
+/* Modal animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes scaleIn {
+    from {
+        transform: scale(0.8);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+@keyframes scaleOut {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(0.8);
+    }
+}
