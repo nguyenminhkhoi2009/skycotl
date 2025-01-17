@@ -1,0 +1,42 @@
+{
+    "aviaryVillage": {
+        "name": "Aviary Village",
+        "title": "Aviary Village",
+        "locations": [
+            {
+                "name": "Aviary Village",
+                "imgSrc": "Aviary_Village/Aviary_Village"
+            },
+            {
+                "name": "Concert Hall",
+                "imgSrc": "Aviary_Village/Concert_Hall"
+            },
+            {
+                "name": "Alice's Wonderland Cafe",
+                "imgSrc": "Aviary_Village/Alice's_Wonderland_Cafe"
+            }
+        ]
+    },
+    "isleOfDawn": {
+        "name": "Isle Of Dawn",
+        "title": "Isle Of Dawn",
+        "locations": [
+            {
+                "name": "Isle Of Dawn",
+                "imgSrc": "Isle_Of_Dawn/Isle_Of_Dawn"
+            },
+            {
+                "name": "Trial Of Water",
+                "imgSrc": "Isle_Of_Dawn/Trial_Of_Water"
+            },
+            {
+                "name": "Trial Of Earth",
+                "imgSrc": "Isle_Of_Dawn/Trial_Of_Earth"
+            },
+            {
+                "name": "Trial Of Air",
+                "imgSrc": "Isle_Of_Dawn/Trial_Of_Air"
+            }
+        ]
+    }
+}

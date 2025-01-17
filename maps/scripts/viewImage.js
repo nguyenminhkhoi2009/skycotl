@@ -9,6 +9,7 @@ function viewImageFullscreen(imgSrc) {
     modal.style.width = "100%";
     modal.style.height = "100%";
     modal.style.backgroundColor = "rgba(0, 0, 0, 0.8)";
+    modal.style.zIndex = "1000";
     modal.style.animation = "fadeIn 0.5s";
 
     const img = document.createElement("img");
@@ -31,12 +32,16 @@ function viewImageFullscreen(imgSrc) {
     document.body.appendChild(modal);
 }
 
-document.addEventListener("DOMContentLoaded", function() {
-    const images = document.querySelectorAll(".image img");
+function initializeImageClickEvents() {
+    const images = document.querySelectorAll(".clickable-image");
 
     images.forEach(function(image) {
         image.addEventListener("click", function() {
             viewImageFullscreen(image.src);
         });
     });
+}
+
+document.addEventListener("DOMContentLoaded", function() {
+    initializeImageClickEvents();
 });
